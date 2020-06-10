@@ -1,0 +1,244 @@
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Labs\lab-05-stack
+-- [hunter] Initializing Hunter workspace (9a3594a61227967fb92159339ba326701b287b19)
+-- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.218.tar.gz
+-- [hunter]   -> C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: C:/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 6549ddd | Config-ID: 2c875e7 ]
+-- [hunter] GTEST_ROOT: C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Install (ver.: 1.8.0-hunter-p11)
+-- [hunter] Building GTest
+loading initial cache file C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/args.cmake
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Build
+Scanning dependencies of target GTest-Release
+[  6%] Creating directories for 'GTest-Release'
+[ 12%] Performing download step (download, verify and extract) for 'GTest-Release'
+-- Downloading...
+   dst='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/googletest/archive/1.8.0-hunter-p11.tar.gz'
+-- [download 100% complete]
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 30% complete]
+-- [download 32% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 37% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 64% complete]
+-- [download 66% complete]
+-- [download 68% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 73% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 78% complete]
+-- [download 80% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 85% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 90% complete]
+-- [download 92% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'GTest-Release'
+[ 25%] No update step for 'GTest-Release'
+[ 31%] Performing configure step for 'GTest-Release'
+loading initial cache file C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/args.cmake
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: C:/Users/kirill/AppData/Local/Programs/Python/Python38-32/python.exe (found version "3.8.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Build/GTest-Release-prefix/src/GTest-Release-build
+[ 37%] Performing build step for 'GTest-Release'
+Scanning dependencies of target gtest
+[  9%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+Scanning dependencies of target gmock
+Scanning dependencies of target gmock_main
+[ 18%] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj
+[ 36%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj
+[ 36%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+[ 45%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj
+[ 54%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+In file included from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc: In function 'testing::internal::TimeInMillis testing::internal::GetTimeInMillis()':
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:840:26: error: 'int gettimeofday(timeval*, void*)' is deprecated [-Werror=deprecated-declarations]
+   gettimeofday(&now, NULL);
+                          ^
+In file included from C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:103,
+                 from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+c:\mingw\include\sys\time.h:106:53: note: declared here
+ int __cdecl __MINGW_NOTHROW __POSIX_2008_DEPRECATED gettimeofday
+                                                     ^~~~~~~~~~~~
+In file included from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:840:26: error: 'int gettimeofday(timeval*, void*)' is deprecated [-Werror=deprecated-declarations]
+   gettimeofday(&now, NULL);
+                          ^
+In file included from C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:103,
+                 from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+c:\mingw\include\sys\time.h:106:53: note: declared here
+ int __cdecl __MINGW_NOTHROW __POSIX_2008_DEPRECATED gettimeofday
+                                                     ^~~~~~~~~~~~
+In file included from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc: In function 'testing::internal::TimeInMillis testing::internal::GetTimeInMillis()':
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:840:26: error: 'int gettimeofday(timeval*, void*)' is deprecated [-Werror=deprecated-declarations]
+   gettimeofday(&now, NULL);
+                          ^
+In file included from C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:103,
+                 from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+c:\mingw\include\sys\time.h:106:53: note: declared here
+ int __cdecl __MINGW_NOTHROW __POSIX_2008_DEPRECATED gettimeofday
+                                                     ^~~~~~~~~~~~
+In file included from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:840:26: error: 'int gettimeofday(timeval*, void*)' is deprecated [-Werror=deprecated-declarations]
+   gettimeofday(&now, NULL);
+                          ^
+In file included from C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:103,
+                 from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+c:\mingw\include\sys\time.h:106:53: note: declared here
+ int __cdecl __MINGW_NOTHROW __POSIX_2008_DEPRECATED gettimeofday
+                                                     ^~~~~~~~~~~~
+In file included from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc: In function 'testing::internal::TimeInMillis testing::internal::GetTimeInMillis()':
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:840:26: error: 'int gettimeofday(timeval*, void*)' is deprecated [-Werror=deprecated-declarations]
+   gettimeofday(&now, NULL);
+                          ^
+In file included from C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:103,
+                 from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+c:\mingw\include\sys\time.h:106:53: note: declared here
+ int __cdecl __MINGW_NOTHROW __POSIX_2008_DEPRECATED gettimeofday
+                                                     ^~~~~~~~~~~~
+In file included from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:840:26: error: 'int gettimeofday(timeval*, void*)' is deprecated [-Werror=deprecated-declarations]
+   gettimeofday(&now, NULL);
+                          ^
+In file included from C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest/Source/googletest/src/gtest.cc:103,
+                 from C:\.hunter\_Base\9a3594a\6549ddd\2c875e7\Build\GTest\Source\googletest\src\gtest-all.cc:42:
+c:\mingw\include\sys\time.h:106:53: note: declared here
+ int __cdecl __MINGW_NOTHROW __POSIX_2008_DEPRECATED gettimeofday
+                                                     ^~~~~~~~~~~~
+cc1plus.exe: all warnings being treated as errors
+googlemock\CMakeFiles\gmock_main.dir\build.make:62: recipe for target 'googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj' failed
+mingw32-make.exe[5]: *** [googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj] Error 1
+CMakeFiles\Makefile2:96: recipe for target 'googlemock/CMakeFiles/gmock_main.dir/all' failed
+mingw32-make.exe[4]: *** [googlemock/CMakeFiles/gmock_main.dir/all] Error 2
+mingw32-make.exe[4]: *** Waiting for unfinished jobs....
+cc1plus.exe: all warnings being treated as errors
+googlemock\gtest\CMakeFiles\gtest.dir\build.make:62: recipe for target 'googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj' failed
+mingw32-make.exe[5]: *** [googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj] Error 1
+CMakeFiles\Makefile2:170: recipe for target 'googlemock/gtest/CMakeFiles/gtest.dir/all' failed
+mingw32-make.exe[4]: *** [googlemock/gtest/CMakeFiles/gtest.dir/all] Error 2
+cc1plus.exe: all warnings being treated as errors
+googlemock\CMakeFiles\gmock.dir\build.make:62: recipe for target 'googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj' failed
+mingw32-make.exe[5]: *** [googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj] Error 1
+CMakeFiles\Makefile2:123: recipe for target 'googlemock/CMakeFiles/gmock.dir/all' failed
+mingw32-make.exe[4]: *** [googlemock/CMakeFiles/gmock.dir/all] Error 2
+Makefile:139: recipe for target 'all' failed
+mingw32-make.exe[3]: *** [all] Error 2
+CMakeFiles\GTest-Release.dir\build.make:114: recipe for target 'GTest-Release-prefix/src/GTest-Release-stamp/GTest-Release-build' failed
+mingw32-make.exe[2]: *** [GTest-Release-prefix/src/GTest-Release-stamp/GTest-Release-build] Error 2
+CMakeFiles\Makefile2:76: recipe for target 'CMakeFiles/GTest-Release.dir/all' failed
+mingw32-make.exe[1]: *** [CMakeFiles/GTest-Release.dir/all] Error 2
+Makefile:82: recipe for target 'all' failed
+mingw32-make.exe: *** [all] Error 2
+
+[hunter ** FATAL ERROR **] Build step failed (dir: C:/.hunter/_Base/9a3594a/6549ddd/2c875e7/Build/GTest
+[hunter ** FATAL ERROR **] [Directory:C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/GTest]
+
+------------------------------ ERROR -----------------------------
+    https://docs.hunter.sh/en/latest/reference/errors/error.external.build.failed.html
+------------------------------------------------------------------
+
+CMake Error at C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_error_page.cmake:12 (message):
+Call Stack (most recent call first):
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_fatal_error.cmake:20 (hunter_error_page)
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download.cmake:617 (hunter_fatal_error)
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/GTest/hunter.cmake:244 (hunter_download)
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:28 (hunter_add_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/Labs/lab-05-stack/cmake-build-debug/CMakeFiles/CMakeOutput.log".
